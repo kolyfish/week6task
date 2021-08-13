@@ -16,37 +16,61 @@
   <body>
     <header>
       <div class="container d-flex ">
-        <div class="p-2">
-          <h4 class="$primary">EXHIBINECTION</h4>
+        <div class=".row p-2">
+          <h4 class="link-primary mb-2">EXHIBINECTION</h4>
         </div>
         <div class="row">
-         <ul class="list-unstyled d-flex justify-content-center align-items-center ">
+         <ul class="col-md-6 list-unstyled d-flex justify-content-center align-items-center mb-0">
           <div class="">
-            <li class="me-9"><a herf="#">Sign in</a></li>
+            <li class="grid_10"><a herf="#">Sign in</a></li>
           </div>
             <div>
-              <li class="me-10 "><a herf="#"> Sign up</a></li>
+              <li class="grid_11"><a herf="#"> Sign up</a></li>
              </div>
              <div>
-              <li class="me- "><a herf="#"> <span class="material-icons">
+              <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+               
+              <li class="grid_12 "><a herf="#"> <span class="material-icons align-middle">
                 confirmation_number
                 </span>
                 </a></li>
+              </button>
+                    <!-- Modal -->
+                   <!-- 新增 .right -->
+                  <div class="modal right fade modal-dialog modal-dialog-scrollable" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                   <div class="modal-dialog">
+                 <div class="modal-content">
+                   <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Cart List</h5>
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                   <div class="modal-body">
+                    購買內容文字內容
+                    </div>
+                    <div class="modal-footer">
+                   <button type="button" class="btn btn-primary">前往結帳</button>
+      </div>
+    </div>
+  </div>
+                  </div>
              </div>
         </ul>
        </div>
       </div>
-      <div class="first row">
+      <div class="first  container-fluid" >
+        <div class="row">
         <div class="col">
-           <h4 class="ms-2 col">台北當代藝術展</h4>
-           <h5 class="ms-2 col">01 JUN - 31 OCT</h5>
+           <h4 class=" col-ms-4 mt-10 grid_2 link-light">台北當代藝術展</h4>
+           <h5 class=" col-ms-8 mb- grid_2 link-light">01 JUN - 31 OCT</h5>
        </div>
-        <div class="d-flex">
-           <button type="button" class="btn btn-secondary ">購買票券</button>
-           <button type="button" class="btn btn-dark ms-2 mb-4">詳細資訊</button>
+       
+        <div class="d-flex  ">
+           <button type="button " class="mb-10 btn btn-secondary  ">購買票券</button>
+           <button type="button " class="mb-10 btn btn-dark ms-2 ">詳細資訊</button>
        
        </div>
     </div>
+  </div>
     </header>
    
     <div class="nav-scroller">
