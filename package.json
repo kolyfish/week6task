@@ -17,7 +17,7 @@
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^10.0.0",
     "bootstrap": "^5.0.2",
     "browser-sync": "^2.26.13",
     "ejs": "^3.1.5",
@@ -32,7 +32,7 @@
     "gulp-layout": "0.0.4",
     "gulp-load-plugins": "^1.6.0",
     "gulp-plumber": "^1.2.1",
-    "gulp-postcss": "^8.0.0",
+    "gulp-postcss": "^9.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "jquery": "^3.5.1",
