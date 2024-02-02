@@ -34,7 +34,7 @@
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
+    "gulp-sourcemaps": "^3.0.0",
     "jquery": "^3.5.1",
     "minimist": "^1.2.0",
     "morgan": "^1.9.1",
